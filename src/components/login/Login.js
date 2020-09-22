@@ -1,4 +1,5 @@
 import React from 'react'
+import { accessUrl } from "./../../spotify/spotify.js";
 
 import './Login.css';
 
@@ -11,7 +12,7 @@ function Login() {
                 src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
                 alt="spotify logo"
             />
-            <button>LOGIN WITH SPOTIFY</button>
+            <a href = {accessUrl}>LOGIN WITH SPOTIFY</a>
         </div>
     )
 }
