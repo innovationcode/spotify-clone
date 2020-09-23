@@ -14,7 +14,7 @@ const scopes = [
 ];
 
 export const getTokenFromUrl = () => {
-  console.log("window.location.hash   : -- ", window.location.hash);
+  //console.log("window.location.hash   : -- ", window.location.hash);
 
   return window.location.hash
     .substring(1)
